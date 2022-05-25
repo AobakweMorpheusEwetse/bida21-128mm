@@ -1,0 +1,48 @@
+
+
+
+
+.Scifi-movies{
+    position: absolute;
+    width:100%;
+    height: 100%;
+   background-color: black;
+    padding: 0px 20px;
+    color: white;
+    mmargin-top: 850px;
+}
+.Scifi-movies h1{
+    font-size: 20px;
+    color:rgb(18, 241, 241);
+}
+.scifi-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Scifi-inside h3{
+    font-size: 15px;
+    font-weight:500;
+    margin-top: 6px;
+   
+}
+.Scifi-inside img{
+   height: 250px;
+   border-radius: 10px;
+   transition: all 500ms ease-in-out;
+}
+.Scifi-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.imdb{
+    background: teal;
+    border-radius:20px;
+    position:absolute;
+    padding: 10px 10px;
+    color: white;
+    margin-top: -80px;
+    margin-left: 120px;
+    font-weight: bolder;
+}
